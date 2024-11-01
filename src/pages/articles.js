@@ -232,7 +232,7 @@ export default function Articles() {
               title="Who Am I?"
               summary="My name is Oudom Thach, and I am from Cambodia. I am an fresh-grad engineer, a dreamer, and a relentless seeker of knowledge. I see myself not just as a product of my environment, but as a bridge between the present and the future—a future where technology, humanity, and exploration converge to shape a new narrative...
 
-I am driven by an insatiable curiosity for understanding not only how things work but why they exist. My journey in engineering and robotics is more than a pursuit of technical mastery; it is a quest to create, innovate, and redefine what is possible. I have always been captivated by the way technology can elevate human life, not just through efficiency and power, but through empathy and connection. I want to create machines and systems that don’t replace human potential but expand it..."
+I am driven by an insatiable curiosity for understanding not only how things work but why they exist. My journey in engineering and robotics is more than a pursuit of technical mastery; it is a quest to create, innovate, and redefine what is possible. I have always been captivated by the way technology can elevate human life, not just through efficiency and power, but through empathy and connection. I want to create machines and systems that don’t replace human potential."
               additionalImages={[
                 "/images/articles/astro-4.jpg",
                 "/images/articles/oudom_8.jpg",
