@@ -39,8 +39,14 @@ const Modal = ({ project, onClose }) => {
     if (!project) return null;
 
     return (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50 p-4">
-            <div className="relative w-full max-w-3xl bg-white dark:bg-dark rounded-lg shadow-lg p-6">
+        <div
+            className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50 p-4"
+            onClick={onClose} // Close modal when clicking on the background
+        >
+            <div
+                className="relative w-full max-w-3xl lg:max-w-2xl md:max-w-xl sm:max-w-lg bg-white dark:bg-dark rounded-lg shadow-lg p-6 overflow-y-auto max-h-[90vh]"
+                onClick={(e) => e.stopPropagation()} // Prevent click inside modal from closing it
+            >
                 <button
                     onClick={onClose}
                     className="absolute top-3 right-3 text-gray-500 hover:text-gray-800 dark:text-gray-300"
@@ -52,8 +58,8 @@ const Modal = ({ project, onClose }) => {
                     <FramerImage
                         src={activeImage}
                         alt={project.title}
-                        className="rounded-lg"
-                        style={{ maxHeight: "400px", width: "100%", objectFit: "cover" }}
+                        className="rounded-lg w-full h-auto object-contain"
+                        style={{ maxHeight: "400px" }}
                         width={800} // Main image width
                         height={400} // Main image height
                     />
