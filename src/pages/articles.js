@@ -239,6 +239,7 @@ I am driven by an insatiable curiosity for understanding not only how things wor
                 "/images/articles/oudom-6.jpg",
                 "/images/articles/thiaplc-1.jpg",
                 "/images/articles/th-5.jpg",
+                "/images/articles/jfkMoon.jpg",
               ]}
             />
 
