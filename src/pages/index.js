@@ -47,7 +47,7 @@ export default function Home() {
             {/* Text Content Section */}
             <div className="flex w-1/2 flex-col items-center self-center lg:w-full">
               <AnimatedText
-                text="Hi, I'm Oudom — AI, Data & Robotics"
+                text="Hi, I'm Oudom. Welcome to My Portfolio Website"
                 className="!text-left !text-6xl xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
 
@@ -59,7 +59,7 @@ export default function Home() {
                   "Data Science",
                   "Computer Vision",
                   "Robotics",
-                  "Full-stack ML Deployment"
+                  "Full-stack ML Deployment",
                 ].map((tag) => (
                   <span
                     key={tag}
@@ -73,28 +73,41 @@ export default function Home() {
               {/* Intro paragraphs */}
               <p className="mb-6 mt-4 text-base font-medium md:text-sm sm:!text-xs">
                 I’m a Mechatronics Engineering graduate from Cambodia, currently
-                pursuing a <span className="font-semibold">Master of Science in Computer Science</span> with a
-                focus on <span className="font-semibold">Artificial Intelligence</span>. My work sits at the
-                intersection of <span className="font-semibold">machine learning, data analytics, and robotics</span>—
-                building end-to-end systems that learn from data and act in the
+                pursuing a{" "}
+                <span className="font-semibold">
+                  Master of Science in Computer Science
+                </span>{" "}
+                with a focus on{" "}
+                <span className="font-semibold">Artificial Intelligence</span>.
+                My work sits at the intersection of{" "}
+                <span className="font-semibold">
+                  machine learning, data analytics, and robotics
+                </span>
+                —building end-to-end systems that learn from data and act in the
                 physical world.
               </p>
 
               <p className="mb-6 text-base font-medium md:text-sm sm:!text-xs">
-                I design and deploy <span className="font-semibold">ML pipelines</span> (from data prep to model
-                training and evaluation), develop <span className="font-semibold">computer vision</span> solutions,
-                and integrate AI into <span className="font-semibold">robotic platforms</span>. I also ship
-                <span className="font-semibold"> full-stack</span> prototypes (Flask/Gradio/Hugging Face) to get
-                models into users’ hands quickly.
+                I design and deploy{" "}
+                <span className="font-semibold">ML pipelines</span> (from data
+                prep to model training and evaluation), develop{" "}
+                <span className="font-semibold">computer vision</span> solutions,
+                and integrate AI into{" "}
+                <span className="font-semibold">robotic platforms</span>. I also
+                ship <span className="font-semibold">full-stack</span> prototypes
+                (Flask / Gradio / Hugging Face) to get models into users’ hands
+                quickly.
               </p>
 
               <p className="mb-4 text-base font-medium md:text-sm sm:!text-xs">
-                I’m <span className="font-semibold">open to new opportunities</span>—internships, research,
-                and entry-level roles—where I can contribute at maximum potential,
-                learn fast, and deliver measurable impact for both
-                <span className="font-semibold"> Cambodia</span> and the companies I collaborate with.
-                Detail-oriented, adaptable, and driven, I enjoy solving
-                challenging problems with clear, data-backed solutions.
+                I’m <span className="font-semibold">open to new opportunities</span>
+                —internships, research, and entry-level roles—where I can
+                contribute at maximum potential, learn fast, and deliver
+                measurable impact for both{" "}
+                <span className="font-semibold">Cambodia</span> and the companies
+                I collaborate with. Detail-oriented, adaptable, and driven, I
+                enjoy solving challenging problems with clear, data-backed
+                solutions.
               </p>
 
               <div className="mt-2 flex items-center self-start lg:self-center">
@@ -133,7 +146,11 @@ export default function Home() {
         </Layout>
 
         <div className="absolute right-8 bottom-8 inline-block w-24 md:hidden">
-          <Image className="relative h-auto w-full" src={lightBulb} alt="Light bulb icon" />
+          <Image
+            className="relative h-auto w-full"
+            src={lightBulb}
+            alt="Light bulb icon"
+          />
         </div>
       </article>
     </>
