@@ -66,7 +66,7 @@ const Education = () => {
           <Details
             type="Homeschool High School Diploma"
             time="2015-2018"
-            place="Keystone National High School Bloomsburg, Pennsylvania"
+            place="Keystone National High School"
           />
 
           <Details
