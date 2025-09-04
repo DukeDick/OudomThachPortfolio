@@ -49,7 +49,7 @@ export default function About() {
             <main className={`flex w-full flex-col items-center justify-center dark:text-light`}>
                 <Layout className="pt-16">
                     <AnimatedText
-                        text="Passion Fuels Purpose!"
+                        text="Just a Cambodian Boy with Big Dreams!"
                         className="mb-16 !text-8xl !leading-tight lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
                     />
 
