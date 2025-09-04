@@ -13,10 +13,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Oudom Thach — AI & Robotics Portfolio</title>
+        <title>Oudom Thach | AI & Robotics Portfolio</title>
         <meta
           name="description"
-          content="Oudom Thach — Mechatronics graduate and M.S. in Computer Science (AI) candidate. Projects in machine learning, data analytics, computer vision, robotics, and full-stack deployment. Open to opportunities to create real-world impact for Cambodia and forward-thinking companies."
+          content="Oudom Thach | Mechatronics graduate and M.S. in Computer Science (AI) candidate. Projects in machine learning, data analytics, computer vision, robotics, and full-stack deployment. Open to opportunities to create real-world impact for Cambodia and forward-thinking companies."
         />
       </Head>
 
@@ -83,7 +83,7 @@ export default function Home() {
                 <span className="font-semibold">
                   machine learning, data analytics, and robotics
                 </span>
-                —building end-to-end systems that learn from data and act in the
+                . I build end-to-end systems that learn from data and act in the
                 physical world.
               </p>
 
@@ -100,8 +100,8 @@ export default function Home() {
               </p>
 
               <p className="mb-4 text-base font-medium md:text-sm sm:!text-xs">
-                I’m <span className="font-semibold">open to new opportunities</span>
-                —internships, research, and entry-level roles—where I can
+                I’m <span className="font-semibold">open to new opportunities</span>.
+                Internships, research, and entry-level roles where I can
                 contribute at maximum potential, learn fast, and deliver
                 measurable impact for both{" "}
                 <span className="font-semibold">Cambodia</span> and the companies
