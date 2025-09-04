@@ -15,6 +15,7 @@ function AnimatedNumberFramerMotion({ value }) {
     const motionValue = useMotionValue(0);
     const springValue = useSpring(motionValue, { duration: 3000 });
     const isInView = useInView(ref, { once: true });
+
     useEffect(() => {
         if (isInView) {
             motionValue.set(value);
@@ -38,10 +39,10 @@ export default function About() {
     return (
         <>
             <Head>
-                <title>Minimal Portfolio Built with Nextjs | About Page</title>
+                <title>Oudom Thach | About Me</title>
                 <meta
                     name="description"
-                    content="Learn more about CodeBucks, a Next.js developer with a passion for creating innovative solutions. Discover tips for building a developer portfolio and insights on full-stack development, front-end development, and back-end development."
+                    content="Learn more about Oudom Thach, a Mechatronics Engineering graduate and current M.S. in Computer Science (AI) candidate. Passionate about AI, machine learning, data analytics, and advanced robotics, building innovative solutions to solve real-world problems."
                 />
             </Head>
             <TransitionEffect />
@@ -56,16 +57,26 @@ export default function About() {
                         {/* Biography Section */}
                         <div className="col-span-6 flex flex-col items-start justify-center md:col-span-12">
                             <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
-                                BIOGRAPHY
+                                Biography
                             </h2>
                             <p className="font-medium">
-                                Hi, I am Oudom, a fresh graduate Mechatronics Engineer with a deep passion for robotics, AI, and innovative technology solutions. With a strong foundation in mechanical design, software engineering, and automation, I am driven to push the boundaries of what’s possible in the world of robotics and intelligent systems.
+                                Hi, I’m Oudom, a fresh graduate Mechatronics Engineer from Cambodia and currently pursuing my{" "}
+                                <span className="font-semibold">Master’s in Computer Science</span> with a specialization in{" "}
+                                <span className="font-semibold">Artificial Intelligence</span>. I have a strong foundation in
+                                mechanical design, software engineering, and automation, and I’m driven to push the boundaries
+                                of what’s possible in robotics and intelligent systems. I’m particularly interested in
+                                <span className="font-semibold"> artificial intelligence, machine learning, data analytics, and advanced robotics</span>,
+                                aiming to integrate these fields to build smarter and more capable systems.
                             </p>
                             <p className="my-4 font-medium">
-                                I believe that engineering is about more than just building machines—it’s about solving real-world challenges, enhancing human capabilities, and creating advanced, user-friendly technologies that can make a meaningful impact.
+                                I believe engineering is not just about building machines. It’s about solving real-world challenges,
+                                enhancing human capabilities, and creating advanced, user-friendly technologies that make a meaningful impact.
                             </p>
                             <p className="font-medium">
-                                Whether I’m working on humanoid robots, AI-driven projects, or mechanical prototypes, I bring dedication, precision, creativity, and a strong problem-solving mindset to every task. As I seek job opportunities, I am committed to giving my very best in everything I do and am eager to contribute to groundbreaking projects in fields like mechanical engineering, AI, data science, and other related areas.
+                                Whether I’m working on humanoid robots, AI-driven projects, or mechanical prototypes, I bring dedication,
+                                precision, creativity, and a problem-solving mindset to every task. As I seek job opportunities, I’m committed
+                                to delivering my best in everything I do and contributing to groundbreaking projects in fields like robotics,
+                                AI, data science, and intelligent systems.
                             </p>
                         </div>
 
@@ -79,10 +90,10 @@ export default function About() {
                             <Image
                                 className="h-auto w-full rounded-2xl"
                                 src={profile}
-                                alt="Oudom"
+                                alt="Oudom Thach"
                                 sizes="(max-width: 768px) 100vw,
-                               (max-width: 1200px) 50vw,
-                               33vw"
+                                       (max-width: 1200px) 50vw,
+                                       33vw"
                                 priority
                             />
                         </div>
@@ -96,5 +107,3 @@ export default function About() {
         </>
     );
 }
-
-
